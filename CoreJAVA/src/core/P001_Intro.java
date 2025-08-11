@@ -1,0 +1,14 @@
+package core;
+
+//out->print stream
+//in -> input stream
+//err-> error stream
+public class P001_Intro {
+	// comment
+//	in java execution starts from main method
+	public static void main(String[] args) {
+		System.out.print("hello java");
+		System.out.println("hello java again");
+		System.out.println("hello this is java program");
+	}
+}
