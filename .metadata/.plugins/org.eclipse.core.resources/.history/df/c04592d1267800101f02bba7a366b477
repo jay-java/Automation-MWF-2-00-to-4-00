@@ -1,0 +1,38 @@
+package core;
+
+public class P003_Operators {
+	public static void main(String[] args) {
+		// 1.Assignment Operator -> =, +=,-=,*=,/=
+		int i = 10;
+
+		i += 20; // i = i+20
+		System.out.println("i = " + i);
+
+		int j = 20;
+		j += i; // j = j+i
+		System.out.println("j = " + j);
+
+		j -= 10;
+		System.out.println("j = " + j);
+
+		j *= 2;
+		System.out.println("j = " + j);
+
+		j /= 5;
+		System.out.println("j = " + j);
+		// j = 16
+		// 2.Arithmetic -> =,-,*,/,%
+		System.out.println(i + j);
+		System.out.println(i - j);
+		System.out.println(i * j);
+		System.out.println(i / j);
+		System.out.println(i % j);
+
+		// 3.conditional -> >,>=,<,<=,!=,==
+
+		int a = 10, b = 20;
+		System.out.println(a > b);
+		System.out.println(a >= b);
+
+	}
+}
