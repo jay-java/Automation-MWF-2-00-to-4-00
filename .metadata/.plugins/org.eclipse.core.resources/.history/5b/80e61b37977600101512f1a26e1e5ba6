@@ -1,9 +1,0 @@
-package core;
-
-public class P001_Intro {
-	public static void main(String[] args) {
-		System.out.println("hello java");
-		System.out.println("hello java again");
-		System.out.println("hello this is java program");
-	}
-}

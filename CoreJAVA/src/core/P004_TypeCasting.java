@@ -6,13 +6,26 @@ public class P004_TypeCasting {
 		int a = 1;
 		System.out.println("a = " + a);
 
-		//implicit
+		// implicit
 		double d = a;
 		System.out.println("d = " + d);
-	
-		//explicit
+
+		// explicit
 		double d1 = 3.14;
-		int b = (int)d1;
-		System.out.println("b = "+b);
+		int b = (int) d1;
+		System.out.println("b = " + b);
+
+		// area of circle
+		double radius = 4.5;
+
+		double areaOfCircle = Math.PI * radius * radius;
+		System.out.println("area of circle = " + areaOfCircle);
+
+		System.out.println(Math.sqrt(64));
+
+		int i = 10, j = 3;
+		double k = (double)i / (double)j;
+		System.out.println("k = " + k);
+
 	}
 }
