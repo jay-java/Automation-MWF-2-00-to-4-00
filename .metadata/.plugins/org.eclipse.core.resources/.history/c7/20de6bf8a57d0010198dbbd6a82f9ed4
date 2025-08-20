@@ -1,0 +1,36 @@
+package core;
+
+public class P006_Loop {
+	public static void main(String[] args) {
+		// 1.for loop
+//		System.out.println(1);
+//		System.out.println(2);
+//		System.out.println(3);
+//		System.out.println(4);
+//		System.out.println(5);
+		
+//		for(initialization;condition;incre/decre) {body}
+		// ( < -> ++ )  ( > -> --)
+//		for(int i=1;i<=500;i++) {
+//			System.out.println(i);
+//		}
+		
+		for(int i=10;i>=1;i--) {
+			System.out.println(i);
+		}
+		
+		
+		
+		// 2.while loop
+		//while(condition){body}
+		int j=1;
+		while(j <= 10) {
+			System.out.println("j = "+j);
+		}
+		
+		
+		
+		// 3.do while loop
+		// 4.for each
+	}
+}
