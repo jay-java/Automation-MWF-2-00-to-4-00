@@ -1,0 +1,24 @@
+package core;
+
+class AllFunctions {
+
+	// 1.without return type without parameter
+	public void call() {
+		System.out.println("call in all functions class");
+	}
+	// 2.without return type with parameter
+	public void show(int i) {
+		System.out.println("show method : "+i);
+	}
+	// 3.with return type without parameter
+	// 4.with return type with parameter
+}
+
+public class P010_Functions {
+	public static void main(String[] args) {
+		System.out.println("hello");
+
+		AllFunctions a = new AllFunctions();
+		a.call();
+	}
+}

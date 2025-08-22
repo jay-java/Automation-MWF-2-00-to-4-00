@@ -1,0 +1,21 @@
+package core;
+
+
+class QQ{
+	public void call() {
+		System.out.println("call method in QQ class");
+	}
+
+	public void fun() {
+		System.out.println("fun method in QQ class");
+	}
+}
+public class P008_ClassOBject {
+
+	public static void main(String[] args) {
+		System.out.println("main method");
+		QQ obj  = new QQ();
+		obj.call();
+		obj.fun();
+	}
+}
