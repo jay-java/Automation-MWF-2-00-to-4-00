@@ -1,0 +1,14 @@
+package core;
+
+public class P012_Array {
+	public static void main(String[] args) {
+		int a = 10, b = 20, c = 30, d = 40;
+		System.out.println(a);
+		int ar[] = { 11, 42, 53, 84, 55, 66, 70, 38, 129, 140 };
+		for(int index=0;index<ar.length;index++) {
+			System.out.println(ar[index]);
+		}
+		
+		
+	}
+}
