@@ -1,0 +1,35 @@
+package core;
+
+public class P013_String {
+	public static void main(String[] args) {
+		char c[] = { 'J', 'A', 'V', 'A' };
+		System.out.println(c);
+
+		String s = "JAVA TECHNOLOGY $%^&&3675678098is best to develop and test any type of application";
+		System.out.println(s);
+		System.out.println(s.length());
+
+		String s1 = "java";
+		String s2 = "JaVa";
+		System.out.println(s1.equals(s2));
+		System.out.println(s1.equalsIgnoreCase(s2));
+
+		String s3 = "5";
+		String s4 = "2";
+		System.out.println(s3 + s4);
+
+		int i = 2;
+		Integer i1 = new Integer(2);
+		System.out.println(i1);
+		
+		int n1 = Integer.parseInt(s3);
+		int n2 = Integer.parseInt(s4);
+		
+		System.out.println(n1+n2);
+		int n3 = n1+n2;
+		
+		String ss = String.valueOf(n3);
+		System.out.println(ss);
+		
+	}
+}

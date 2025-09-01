@@ -28,11 +28,27 @@ public class P012_Array {
 
 		int max = arr[0];
 		for (int index = 1; index < arr.length; index++) {
-			if(max < arr[index]) {
+			if (max < arr[index]) {
 				max = arr[index];
-			}0
+			}
 		}
-		System.out.println("max of array : "+max);
+		System.out.println("max of array : " + max);
+
+		System.out.println("enter element to search in array : ");
+		int num = sc.nextInt();
+
+		int counter = 0;
+		for (int index = 0; index < arr.length; index++) {
+			if (num == arr[index]) {
+				counter++;
+			}
+		}
+		if(counter> 0 ) {
+			System.out.println("yes "+num+" exist "+counter+" times");
+		}
+		else {
+			System.out.println("no");
+		}
 
 	}
 }

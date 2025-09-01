@@ -1,0 +1,12 @@
+package core;
+
+public class P013_String {
+	public static void main(String[] args) {
+		char c[] = { 'J', 'A', 'V', 'A' };
+		System.out.println(c);
+
+		String s = "JAVA TECHNOLOGYis best to develop and test any type of application";
+		System.out.println(s);
+		System.out.println(s.length());
+	}
+}
