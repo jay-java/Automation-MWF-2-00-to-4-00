@@ -1,0 +1,10 @@
+package core;
+class Student{
+	
+}
+public class P015_Encapsulation {
+	public static void main(String[] args) {
+		
+		
+	}
+}
