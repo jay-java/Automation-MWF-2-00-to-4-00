@@ -1,0 +1,18 @@
+package core;
+
+class A{
+	public void classAMethod() {
+		System.out.println("class A method");
+	}
+}
+class B{
+	public void classBMethod() {
+		System.out.println("class B method");
+	}
+}
+public class P016_Inheritance {
+	public static void main(String[] args) {
+
+	}
+	
+}

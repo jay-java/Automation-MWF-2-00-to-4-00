@@ -7,4 +7,6 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="core.User"/>
     <fullyQualifiedTypeName name="core.Student"/>
+    <fullyQualifiedTypeName name="core.B"/>
+    <fullyQualifiedTypeName name="core.C"/>
 </qualifiedTypeNameHistroy>

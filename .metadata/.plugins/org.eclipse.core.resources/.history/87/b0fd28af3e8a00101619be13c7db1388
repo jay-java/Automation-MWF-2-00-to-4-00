@@ -1,0 +1,45 @@
+package core;
+
+//1.single
+class A { // Parent
+	public void classAMethod() {
+		System.out.println("class A method");
+	}
+
+	public void show() {
+		System.out.println("show method in A class");
+	}
+}
+
+class B extends A { // Child
+	public void classBMethod() {
+		System.out.println("class B method");
+	}
+}
+
+//multilevel
+class C extends B {
+	public void classCMethod() {
+		System.out.println("class C method");
+	}
+}
+
+//hierarchical
+class D extends A{
+	
+}
+
+public class P016_Inheritance {
+	public static void main(String[] args) {
+		B b = new B();
+		b.classBMethod();
+		b.classAMethod();
+		b.show();
+		
+		C c = new C();
+		c.classAMethod();
+		c.classBMethod();
+		c.classCMethod();
+	}
+
+}

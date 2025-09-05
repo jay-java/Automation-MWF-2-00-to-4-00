@@ -1,0 +1,25 @@
+package core;
+
+class A { //Parent
+	public void classAMethod() {
+		System.out.println("class A method");
+	}
+	public void show() {
+		System.out.println("show method in A class");
+	}
+}
+
+class B{ //Child
+	public void classBMethod() {
+		System.out.println("class B method");
+	}
+}
+
+public class P016_Inheritance {
+	public static void main(String[] args) {
+		B b = new B();
+		b.classBMethod();
+		b.cl
+	}
+
+}
