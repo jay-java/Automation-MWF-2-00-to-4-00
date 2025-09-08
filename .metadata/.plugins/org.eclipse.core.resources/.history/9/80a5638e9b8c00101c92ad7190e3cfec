@@ -1,0 +1,43 @@
+package core;
+
+class Students {
+	int roll_no;
+	String name;
+	double per;
+
+	static String c_name = "TOPS";
+
+	Students(int roll_no, String name, double per) {
+		this.roll_no = roll_no;
+		this.name = name;
+		this.per = per;
+	}
+
+	public void showData() {
+		System.out.println(
+				"Students [roll_no=" + roll_no + ", name=" + name + ", per=" + per + ", college name =" + c_name + "]");
+	}
+
+	public static void call() {
+		System.out.println("static call method in students class : "+c_name);
+	}
+
+	public String toString() {
+		return "Students [roll_no=" + roll_no + ", name=" + name + ", per=" + per + ", college name =" + c_name + "]";
+	}
+
+}
+
+public class P018_StaticKeyword {
+	public static void main(String[] args) {
+		Students s1 = new Students(1, "java", 67.0);
+		s1.showData();
+		s1.call();
+		Students s2 = new Students(2, "python", 87.0);
+		Students s3 = new Students(3, "kotlin", 77.0);
+		Students.call();
+//		System.out.println(s1);
+//		System.out.println(s2);
+//		System.out.println(s3);
+	}
+}

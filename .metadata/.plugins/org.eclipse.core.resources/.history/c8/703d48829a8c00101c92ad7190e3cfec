@@ -1,0 +1,21 @@
+package core;
+
+class Students {
+	int roll_no;
+	String name;
+	double per;
+	
+	static String c_name = "TOPS";
+
+	Students(int roll_no, String name, double per) {
+		this.roll_no = roll_no;
+		this.name = name;
+		this.per = per;
+	}
+}
+
+public class P018_StaticKeyword {
+	public static void main(String[] args) {
+
+	}
+}

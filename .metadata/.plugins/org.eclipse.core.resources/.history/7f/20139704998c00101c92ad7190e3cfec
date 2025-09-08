@@ -1,0 +1,9 @@
+package core;
+class Students{
+	
+}
+public class P018_StaticKeyword {
+	public static void main(String[] args) {
+		
+	}
+}

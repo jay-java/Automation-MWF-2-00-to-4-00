@@ -1,0 +1,49 @@
+package core;
+
+class Overload {
+	public int add(int a, int b) {
+		return a + b;
+	}
+
+	public int add(int a, int b, int c) {
+		return a + b + c;
+	}
+
+	public int add(int a, int b, int c, int d) {
+		return a + b + c + d;
+	}
+}
+
+class Diagram {
+	public void shape(String name,int numOfSides) {
+
+	}
+
+	public void shape(String name,int numSides,int angles) {
+
+	}
+
+	public void shape(String name) {
+
+	}
+}
+class Parent{
+	public void call() {
+		
+	}
+}
+class Child{
+	
+}
+
+public class P017_Polymorphism {
+	public static void main(String[] args) {
+		Overload o = new Overload();
+		int res1 = o.add(1, 2);
+		System.out.println("res 1 : " + res1);
+		int res2 = o.add(1, 2, 3);
+		System.out.println("res 2 : " + res2);
+		int res3 = o.add(1, 2, 3, 4);
+		System.out.println("res 3 : " + res3);
+	}
+}

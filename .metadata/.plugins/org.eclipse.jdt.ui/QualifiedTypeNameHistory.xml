@@ -9,4 +9,7 @@
     <fullyQualifiedTypeName name="core.Student"/>
     <fullyQualifiedTypeName name="core.B"/>
     <fullyQualifiedTypeName name="core.C"/>
+    <fullyQualifiedTypeName name="core.Overload"/>
+    <fullyQualifiedTypeName name="core.Child"/>
+    <fullyQualifiedTypeName name="core.Students"/>
 </qualifiedTypeNameHistroy>
