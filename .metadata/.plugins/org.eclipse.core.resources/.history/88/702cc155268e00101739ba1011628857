@@ -1,0 +1,37 @@
+package core;
+abstract class Shape{
+	public abstract void drawShape();//declaration
+}
+
+class Rectangle extends Shape{
+
+	@Override
+	public void drawShape() {
+		// TODO Auto-generated method stub
+		System.out.println("shape is Rectangle");
+	}
+	
+}
+class Round extends Shape{
+
+	@Override
+	public void drawShape() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+class Squaree extends Shape{
+
+	@Override
+	public void drawShape() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+public class P019_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}

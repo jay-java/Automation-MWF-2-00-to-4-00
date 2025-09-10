@@ -1,0 +1,14 @@
+package core;
+class QA{
+	final int i =10;
+	public void change() {
+		i++;
+		System.out.println("i = "+i);
+	}
+}
+public class P020_Final {
+	public static void main(String[] args) {
+		QA q = new QA();
+		q.change();
+	}
+}

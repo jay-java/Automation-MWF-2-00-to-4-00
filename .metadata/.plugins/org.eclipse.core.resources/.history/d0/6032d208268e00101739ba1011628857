@@ -1,0 +1,19 @@
+package core;
+class Shape{
+	public abstract void drawShape();//declaration
+}
+
+class Rectangle extends Shape{
+	
+}
+class Round extends Shape{
+	
+}
+class Squaree extends Shape{
+	
+}
+public class P019_Abstraction {
+	public static void main(String[] args) {
+		
+	}
+}
