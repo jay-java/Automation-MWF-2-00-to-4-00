@@ -1,0 +1,19 @@
+package core;
+
+interface inteface1 {
+	public void interface1Method();
+}
+
+interface inteface2 {
+	public void interface2Method();
+}
+
+interface inteface3 {
+	public void interface3Method();
+}
+
+public class P021_Interface {
+	public static void main(String[] args) {
+
+	}
+}

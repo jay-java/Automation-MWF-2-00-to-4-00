@@ -4,6 +4,14 @@ abstract class Shape {
 	public abstract void drawShape();// declaration
 
 	public abstract void area();
+
+	public void call() {
+		System.out.println("call in shape abstract class");
+	}
+
+	public static void show() {
+		System.out.println("show in abstract shape");
+	}
 }
 
 class Rectangle extends Shape {
@@ -112,63 +120,71 @@ class Horse extends Animal {
 
 }
 
-abstract class RBI{
+abstract class RBI {
 	public abstract void interest();
+
 	public abstract void HL();
+
 	public void repoRate() {
 		System.out.println("repo rate +-4%");
 	}
 }
-class SBI extends RBI{
+
+class SBI extends RBI {
 
 	@Override
 	public void interest() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void HL() {
 		// TODO Auto-generated method stub
-		
+
 	}
-	
+
 }
-class AXIS extends RBI{
+
+class AXIS extends RBI {
 
 	@Override
 	public void interest() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void HL() {
 		// TODO Auto-generated method stub
-		
+
 	}
-	
+
 }
-class JAVA extends RBI{
+
+class JAVA extends RBI {
 
 	@Override
 	public void interest() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void HL() {
 		// TODO Auto-generated method stub
-		
+
 	}
-	
+
 }
 
 public class P019_Abstraction {
 	public static void main(String[] args) {
 		Rectangle r = new Rectangle();
 		r.drawShape();
+		r.call();
+		r.show();
+		Shape.show();
 		Round ro = new Round();
 		ro.drawShape();
 		Squaree s = new Squaree();

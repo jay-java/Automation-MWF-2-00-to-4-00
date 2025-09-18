@@ -12,4 +12,14 @@
     <fullyQualifiedTypeName name="core.Overload"/>
     <fullyQualifiedTypeName name="core.Child"/>
     <fullyQualifiedTypeName name="core.Students"/>
+    <fullyQualifiedTypeName name="core.Rectangle"/>
+    <fullyQualifiedTypeName name="core.Round"/>
+    <fullyQualifiedTypeName name="core.Squaree"/>
+    <fullyQualifiedTypeName name="core.Dog"/>
+    <fullyQualifiedTypeName name="core.Cat"/>
+    <fullyQualifiedTypeName name="core.Horse"/>
+    <fullyQualifiedTypeName name="core.QA"/>
+    <fullyQualifiedTypeName name="core.QW"/>
+    <fullyQualifiedTypeName name="core.DefineInterface"/>
+    <fullyQualifiedTypeName name="core.interface1"/>
 </qualifiedTypeNameHistroy>

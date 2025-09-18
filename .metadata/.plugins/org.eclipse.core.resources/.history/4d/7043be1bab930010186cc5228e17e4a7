@@ -1,0 +1,50 @@
+package core;
+
+interface interface1 {
+	public void interface1Method();
+	public static void interface11Method() {
+		System.out.println("static interface 1");
+	}
+}
+interface interface2 extends interface1 {
+	public void interface2Method();
+	public static void interface22Method() {
+		System.out.println("static interface 2");
+	}
+}
+interface interface3 {
+	public void interface3Method();
+	public static void interface33Method() {
+		System.out.println("static interface 3");
+	}
+}
+
+class DefineInterface implements interface2, interface3 {
+	@Override
+	public void interface1Method() {
+		System.out.println("interface 1");
+	}
+	@Override
+	public void interface3Method() {
+		System.out.println("interface 3");
+	}
+
+	@Override
+	public void interface2Method() {
+		// TODO Auto-generated method stub
+		System.out.println("interface 2");
+	}
+
+}
+
+public class P021_Interface {
+	public static void main(String[] args) {
+		DefineInterface d = new DefineInterface();
+		d.interface1Method();
+		d.interface2Method();
+		d.interface3Method();
+		interface1.interface11Method();
+		interface2.interface22Method();
+		interface3.interface33Method();
+	}
+}
