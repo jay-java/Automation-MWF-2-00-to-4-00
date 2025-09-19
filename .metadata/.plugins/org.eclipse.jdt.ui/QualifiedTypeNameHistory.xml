@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="demo.User"/>
     <fullyQualifiedTypeName name="core.AllFunctions"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="core.User"/>
     <fullyQualifiedTypeName name="core.Student"/>
@@ -22,4 +21,10 @@
     <fullyQualifiedTypeName name="core.QW"/>
     <fullyQualifiedTypeName name="core.DefineInterface"/>
     <fullyQualifiedTypeName name="core.interface1"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="core.Divide"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
