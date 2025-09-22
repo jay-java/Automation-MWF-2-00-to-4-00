@@ -27,4 +27,7 @@
     <fullyQualifiedTypeName name="core.Divide"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="core.MyThread"/>
 </qualifiedTypeNameHistroy>
