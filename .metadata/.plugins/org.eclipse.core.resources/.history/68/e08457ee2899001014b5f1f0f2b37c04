@@ -1,0 +1,45 @@
+package core;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class Followers {
+	int id;
+	String name;
+	String address;
+	long contact;
+
+	Followers(int id, String name, String address, long contact) {
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.contact = contact;
+	}
+
+	@Override
+	public String toString() {
+		return "id : " + id + " name : " + name + " address : " + address + " contact : " + contact;
+	}
+
+}
+
+public class P025_ListPractical {
+	public static void main(String[] args) {
+		Followers f1 = new Followers(1, "darshan", "kalol", 987654321);
+		Followers f2 = new Followers(2, "bhargavi", "ahmedabad", 987654321);
+		Followers f3 = new Followers(3, "nikiraj", "baroda", 987654321);
+		Followers f4 = new Followers(4, "mihir", "rajkot", 987654321);
+
+		List<Followers> followersLIst = new ArrayList<Followers>();
+		followersLIst.add(f1);
+		followersLIst.add(f2);
+		followersLIst.add(f3);
+		followersLIst.add(f4);
+		
+		System.out.println(followersLIst);
+		
+		for(Followers f: followersLIst) {
+			
+		}
+	}
+}

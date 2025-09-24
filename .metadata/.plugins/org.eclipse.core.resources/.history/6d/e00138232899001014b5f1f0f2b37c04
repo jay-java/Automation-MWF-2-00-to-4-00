@@ -1,0 +1,19 @@
+package core;
+class Followers{
+	int id;
+	String name;
+	String address;
+	long contact;
+	Followers(int id,String name,String address, long contact){
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.contact = contact;
+	}
+	
+}
+public class P025_ListPractical {
+	public static void main(String[] args) {
+		
+	}
+}

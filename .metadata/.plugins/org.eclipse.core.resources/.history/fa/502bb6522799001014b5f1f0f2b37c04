@@ -1,0 +1,26 @@
+package core;
+
+import java.lang.foreign.AddressLayout;
+import java.util.ArrayList;
+import java.util.List;
+//<generics>
+public class P024_LIst {
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList();
+		list.add(12);
+		list.add('h');
+		list.add(2354);
+		list.add(345.345);
+		list.add("java");
+		list.add(false);
+		list.add(2345364565l);
+		list.add(12);
+		System.out.println(list);
+		list.remove(3);
+		System.out.println(list);
+		list.add(0,"hello java");
+		System.out.println(list);
+		list.set(0,"java");
+		System.out.println(list);
+	}
+}
