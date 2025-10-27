@@ -1,6 +1,6 @@
 package core;
 
-class Student { //A
+class Student { // A
 	private int rollno;
 	private String name;
 	private double per;
@@ -37,15 +37,15 @@ class Student { //A
 	public String getAddress() {
 		return address;
 	}
-	
-	@Override
-		public String toString() {
-			return "rollno : "+rollno+" name : "+name+" per : "+per+" address : "+address;
-		}
+
+	@Override//annotation
+	public String toString() {
+		return "rollno : " + rollno + " name : " + name + " per : " + per + " address : " + address;
+	}
 
 }
 
-public class P015_Encapsulation { //B
+public class P015_Encapsulation { // B
 	public static void main(String[] args) {
 //		Student s = new Student();
 //		s.rollno = 12;
@@ -63,7 +63,7 @@ public class P015_Encapsulation { //B
 
 		System.out.println(s1.getRollno());
 		System.out.println(s1.getName());
-		
+
 		System.out.println(s1);
 
 	}
