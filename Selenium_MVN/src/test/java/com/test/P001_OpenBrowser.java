@@ -12,25 +12,26 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class P001_OpenBrowser {
 	public static void main(String[] args) throws InterruptedException {
 		// 1.for chrome
-		String url = "https://www.facebook.com/";
+		String url = "https://www.amazon.in/";
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(url);
+
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 		WebElement emailEle = driver.findElement(By.name("email"));
 		emailEle.sendKeys("selenium@gmail.com");
-		
+
 		WebElement passEle = driver.findElement(By.name("pass"));
 		passEle.sendKeys("seelnium@123");
-		
+
 		WebElement loginBTN = driver.findElement(By.name("login"));
 		loginBTN.click();
-		
-//		Thread.sleep(3000);
-//		driver.close();
+
+		Thread.sleep(3000);
+		driver.close();
 
 		// 2.firefox
 //		String url1 = "https://www.facebook.com/";
