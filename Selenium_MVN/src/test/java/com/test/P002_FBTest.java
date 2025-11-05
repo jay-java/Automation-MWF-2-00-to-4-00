@@ -45,5 +45,11 @@ public class P002_FBTest {
 		List<WebElement> gender = driver.findElements(By.id("sex"));
 		System.out.println(gender.size());
 		gender.get(1).click();
+		
+		WebElement email = driver.findElement(By.name("reg_email__"));
+		email.sendKeys("selenium@gmail.com");
+		
+		WebElement pass = driver.findElement(By.name("reg_passwd__"));
+		pass.sendKeys("pass@123");
 	}
 }
