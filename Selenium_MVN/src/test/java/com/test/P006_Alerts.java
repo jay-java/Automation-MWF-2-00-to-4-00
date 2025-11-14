@@ -15,15 +15,15 @@ public class P006_Alerts {
 	public static void main(String[] args) throws InterruptedException {
 		String url = "https://demoqa.com/alerts";
 		WebDriver driver = DriverConnection.getDriver(url);
-		
-		//1.Alert
+
+		// 1.Alert
 //		WebElement btn1 = driver.findElement(By.id("alertButton"));
 //		btn1.click();	
 //		Alert alert = driver.switchTo().alert();
 //		Thread.sleep(3000);
 //		alert.accept();
-		
-		//2.Alert
+
+		// 2.Alert
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 //		WebElement btn = driver.findElement(By.id("timerAlertButton"));
 //		btn.click();
@@ -31,18 +31,17 @@ public class P006_Alerts {
 //		Alert alert= driver.switchTo().alert();
 //		Thread.sleep(3000);
 //		alert.accept();
-		
-		
-		//3.Alert
+
+		// 3.Alert
 //		WebElement btn1 = driver.findElement(By.id("confirmButton"));
 //		btn1.click();	
 //		Alert alert = driver.switchTo().alert();
 //		Thread.sleep(3000);
 //		alert.dismiss();
-		
-		//4.Alert
+
+		// 4.Alert
 		WebElement btn1 = driver.findElement(By.id("promtButton"));
-		btn1.click();	
+		btn1.click();
 		Alert alert = driver.switchTo().alert();
 		Thread.sleep(3000);
 		alert.sendKeys("selenium automation");
