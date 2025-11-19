@@ -17,7 +17,7 @@ public class P007_WindowHandle {
 		link.click();
 
 		String mainWin = driver.getWindowHandle();
-//		System.out.println(mainWin);
+		System.out.println(mainWin);
 
 		Set<String> allWin = driver.getWindowHandles();
 		for (String s : allWin) {
